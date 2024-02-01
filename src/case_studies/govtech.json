@@ -1,0 +1,16 @@
+[
+    {
+        "id":"1",
+        "imageSrc": "src/assets/SPAShortcuts.png",
+        "casestudyTitle": "Scaling up Singpass app Shortcuts",
+        "description":"Enhanced the experience of shortcuts to improve scalability",
+        "readMoreLink":""
+    },
+    {
+        "id":"2",
+        "imageSrc": "src/assets/SPAShortcuts.png",
+        "casestudyTitle": "Scaling up Singpass app Shortcuts",
+        "description":"Enhanced the experience of shortcuts to improve scalability",
+        "readMoreLink":""
+    }
+]
