@@ -14,7 +14,7 @@ export default function Home(){
                 date="2020 - Present"
                 companyTitle="Government Technology Agency (GovTech)"
                 description="Craft product experiences citizens interact with and make digital identity accessible for all." 
-                readMoreLink="/GovTech"
+                readMoreLink="/govtech"
             />
 
             <CardComponent
@@ -22,7 +22,7 @@ export default function Home(){
                 date="Dec 2019 - Oct 2020"
                 companyTitle="LiveMore"
                 description="Design mobile and web experiences to captivate new users and maintain brand consistency." 
-                readMoreLink="/LiveMore"
+                readMoreLink="/livemore"
             />
         </div>
     </>

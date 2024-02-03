@@ -1,6 +1,6 @@
 export default function CompanyHeader({duration,companyCaseStudies,casestudyDescription}){
     return(
-    <div className="container mx-auto w-3/4 flex flex-col items-start pt-20">
+    <div className="text-left">
         <p className="text-slate-500 font-mono mb-4">{duration}</p>
 
         {/* XX Company Case Studies */}
@@ -8,7 +8,6 @@ export default function CompanyHeader({duration,companyCaseStudies,casestudyDesc
 
         {/* Description */}
         <p className="text-gray-700 mb-4">{casestudyDescription}</p>
-
     </div>
     );
 }

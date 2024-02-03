@@ -1,16 +1,24 @@
 [
     {
         "id":"1",
-        "imageSrc": "src/assets/SPAShortcuts.png",
+        "imageSrc": "src/assets/SPAShortcuts.svg",
         "casestudyTitle": "Scaling up Singpass app Shortcuts",
         "description":"Enhanced the experience of shortcuts to improve scalability",
-        "readMoreLink":""
+        "readMoreLink":"/govtech/shortcuts"
     },
     {
         "id":"2",
-        "imageSrc": "src/assets/SPAShortcuts.png",
-        "casestudyTitle": "Scaling up Singpass app Shortcuts",
-        "description":"Enhanced the experience of shortcuts to improve scalability",
-        "readMoreLink":""
+        "imageSrc": "src/assets/SPA2.0.svg",
+        "casestudyTitle": "Singpass app redesign",
+        "description":"Redesigned the 3 year old Singpass app to scale for future developments",
+        "readMoreLink":"/govtech/redesign"
+    },
+    {
+        "id":"3",
+        "imageSrc": "src/assets/CDI.svg",
+        "casestudyTitle": "Corporate Digital Identity in Singpass app",
+        "description":"Conducted usability testing to uncover mental models behind account switching",
+        "readMoreLink":"/govtech/corporate"
     }
+
 ]
