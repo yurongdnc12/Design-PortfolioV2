@@ -27,13 +27,13 @@ export default function Company(props){
 
 return(
     <>
-    <div className="mx-auto w-3/4 pt-20">
+    <div className="mx-auto w-3/4 pt-32">
         <CompanyHeader 
             duration={duration}
             companyCaseStudies={companyCaseStudies}
             casestudyDescription={casestudyDescription} />
         
-        <div className="flex">
+        <div className="flex flex-col sm:flex-row lg:flex-row">
             {caseStudiesCards}
         </div>
     </div> 

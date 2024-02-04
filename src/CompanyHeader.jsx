@@ -7,7 +7,7 @@ export default function CompanyHeader({duration,companyCaseStudies,casestudyDesc
         <h2 className="text-slate-800 text-2xl font-semibold mb-4">{companyCaseStudies}</h2>
 
         {/* Description */}
-        <p className="text-gray-700 mb-4">{casestudyDescription}</p>
+        <p className="text-slate-700 mb-4">{casestudyDescription}</p>
     </div>
     );
 }

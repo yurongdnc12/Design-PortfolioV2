@@ -10,7 +10,7 @@ export default function Navbar(){
     };
   
     return (
-      <nav className="p-4 bg-white text-gray-800">
+      <nav className="p-4 bg-white text-gray-800 fixed top-0 w-full">
         <div className="container mx-auto flex justify-between items-center">
           <Link to="/"><img src={rongLogo}/></Link>
   
@@ -23,7 +23,7 @@ export default function Navbar(){
           </div>
   
           <div className="lg:hidden">
-            <button onClick={toggleMobileMenu} className="text-xl text-gray-800 focus:outline-none">
+            <button onClick={toggleMobileMenu} className="text-xl text-slate-800 focus:outline-none">
               <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 {isMobileMenuOpen ? (
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
@@ -36,10 +36,10 @@ export default function Navbar(){
         </div>
   
         {isMobileMenuOpen && (
-          <div className= "bg-gray-200 text-gray-800 py-2">
-            <a href="/" className="block px-4 py-2 text-gray-800" onClick={toggleMobileMenu}>Work</a>
-            <a href="/about" className="block px-4 py-2 text-gray-800" onClick={toggleMobileMenu}>About</a>
-            <a href="/contact" className="block px-4 py-2 text-gray-800" onClick={toggleMobileMenu}>Resume</a>
+          <div className= "bg-slate-100 text-slate-800 mt-2 py-2">
+            <a href="/" className="block px-4 py-2 text-slate-800" onClick={toggleMobileMenu}>Work</a>
+            <a href="/about" className="block px-4 py-2 text-slate-800" onClick={toggleMobileMenu}>About</a>
+            <a href="/contact" className="block px-4 py-2 text-slate-800" onClick={toggleMobileMenu}>Resume</a>
           </div>
         )}
       </nav>

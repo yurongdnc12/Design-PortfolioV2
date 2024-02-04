@@ -2,12 +2,14 @@ import { Link } from "react-router-dom"
 
 export default function CaseStudyCard({data}){
     return(
-            <div className="w-1/3 py-8 mr-8">
+            <div className="w-full lg:w-1/3 py-8 mr-8">
         
                
                 <div className="overflow-hidden text-left">
                     {/* Image */}
-                    <img src={data.imageSrc} alt="Card Image" className="rounded-lg w-full h-full object-cover" />
+                    <div className="border-slate-200 border-2 rounded-lg">
+                        <img src={data.imageSrc} alt="Card Image" className="rounded-lg w-full h-full object-cover" />
+                    </div>
             
                     {/* Content */}
                     <div className="py-4">
