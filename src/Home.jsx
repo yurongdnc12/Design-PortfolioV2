@@ -1,7 +1,6 @@
 import Intro from './Intro'
 import CardComponent from './CardComponent'
 
-
 export default function Home(){
  
     return(

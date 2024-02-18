@@ -60,7 +60,6 @@ export default function About(){
                     readMoreLink="/govtech"
                     buttonText="Check it out"
                 />
-
                 <CardComponent
                     imageSrc="src/assets/Notion_portfolio.png"
                     date="2019-2021"

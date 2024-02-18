@@ -11,7 +11,6 @@ const govtechData = {
   duration:"2020 - Present",
   companyCaseStudies:"GovTech Case Studies",
   casestudyDescription:"In case need a disclaimer",
-  // casestudyFilePath: "./case_studies/govtech.json"
 }
 
 function App() {

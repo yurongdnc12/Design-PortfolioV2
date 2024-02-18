@@ -7,7 +7,7 @@ export default function CaseStudyCard({data}){
                
                 <div className="overflow-hidden text-left">
                     {/* Image */}
-                    <div className="border-slate-200 border-2 rounded-lg">
+                    <div className="border-slate-200 rounded-md">
                         <img src={data.imageSrc} alt="Card Image" className="rounded-lg w-full h-full object-cover" />
                     </div>
             

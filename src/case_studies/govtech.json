@@ -1,24 +1,58 @@
 [
     {
         "id":"1",
-        "imageSrc": "src/assets/SPAShortcuts.svg",
-        "casestudyTitle": "Scaling up Singpass app Shortcuts",
-        "description":"Enhanced the experience of shortcuts to improve scalability",
-        "readMoreLink":"/govtech/shortcuts"
+        "year":"2023",
+        "imageSrc": "src/assets/MFAPasskeys.svg",
+        "casestudyTitle": "Passkeys, Multi Factor Authentication",
+        "description":"Expanding Singpass login options and exploring Passkey release for increased adoption",
+        "readMoreLink":"/govtech/passkeys"
     },
     {
         "id":"2",
-        "imageSrc": "src/assets/SPA2.0.svg",
-        "casestudyTitle": "Singpass app redesign",
-        "description":"Redesigned the 3 year old Singpass app to scale for future developments",
-        "readMoreLink":"/govtech/redesign"
+        "year":"2023",
+        "imageSrc": "src/assets/SFVA11yresearch.svg",
+        "casestudyTitle": "Singpass Face Verification Accessibility research",
+        "description":"Empathising with why visually impaired users struggle to do Face Verification and what we can do to make the experience better",
+        "readMoreLink":"/govtech/accessibility"
     },
     {
         "id":"3",
-        "imageSrc": "src/assets/CDI.svg",
+        "year":"2023",
+        "imageSrc": "src/assets/SPAimprovements.svg",
+        "casestudyTitle": "Singpass app privacy improvements",
+        "description":"Improving the Singpass app privacy posture in view of users’ feedback",
+        "readMoreLink":"/govtech/appprivacy"
+    },
+    {
+        "id":"4",
+        "year":"2022",
+        "imageSrc": "src/assets/FaceVerification.svg",
+        "casestudyTitle": "Singpass Face Verification research",
+        "description":"Learning why users are averse to Face Verification and how design can improve the success rates",
+        "readMoreLink":"/govtech/faceverification"
+    },
+    {
+        "id":"5",
+        "year":"2022",
+        "imageSrc": "src/assets/SPAShortcuts.svg",
+        "casestudyTitle": "Scaling Singpass app Shortcuts",
+        "description":"Scaling the shortcuts experience when we support more public sector login shortcuts in Singpass app",
+        "readMoreLink":"/govtech/shortcuts"
+    },
+    {
+        "id":"6",
+        "year":"2021",
+        "imageSrc": "src/assets/SPA2.0.svg",
+        "casestudyTitle": "Singpass app 2.0",
+        "description":"Redesigning the 3 year old Singpass app to scale for future growth and more relevant visual design",
+        "readMoreLink":"/govtech/redesign"
+    },
+    {
+        "id":"7",
+        "year":"2021",
+        "imageSrc": "src/assets/CorporateDigitalIdentity.svg",
         "casestudyTitle": "Corporate Digital Identity in Singpass app",
-        "description":"Conducted usability testing to uncover mental models behind account switching",
-        "readMoreLink":"/govtech/corporate"
+        "description":"Conducting evaluative research to uncover mental models behind switching accounts between Personal and Corporate",
+        "readMoreLink":"/govtech/redesign"
     }
-
 ]
