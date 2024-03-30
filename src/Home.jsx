@@ -6,7 +6,7 @@ export default function Home(){
     return(
     <>
     <Intro />
-        <div className="container mx-auto w-3/4 flex flex-col sm:flex-row lg:flex-row">
+        <div className="container mx-auto w-2/3 flex flex-col sm:flex-row lg:flex-row">
             {/* Two cards, each taking up 1 out of 2 columns */}
                 <CardComponent
                     imageSrc="src/assets/GovTech_work.png"

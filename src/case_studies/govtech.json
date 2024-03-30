@@ -11,8 +11,8 @@
         "id":"2",
         "year":"2023",
         "imageSrc": "src/assets/SFVA11yresearch.svg",
-        "casestudyTitle": "Singpass Face Verification Accessibility research",
-        "description":"Empathising with why visually impaired users struggle to do Face Verification and what we can do to make the experience better",
+        "casestudyTitle": "Face Verification Accessibility research",
+        "description":"Empathising with the struggles of visually impaired users",
         "readMoreLink":"/govtech/accessibility"
     },
     {
@@ -45,7 +45,7 @@
         "imageSrc": "src/assets/SPA2.0.svg",
         "casestudyTitle": "Singpass app 2.0",
         "description":"Redesigning the 3 year old Singpass app to scale for future growth and more relevant visual design",
-        "readMoreLink":"/govtech/redesign"
+        "readMoreLink":""
     },
     {
         "id":"7",
@@ -53,6 +53,6 @@
         "imageSrc": "src/assets/CorporateDigitalIdentity.svg",
         "casestudyTitle": "Corporate Digital Identity in Singpass app",
         "description":"Conducting evaluative research to uncover mental models behind switching accounts between Personal and Corporate",
-        "readMoreLink":"/govtech/redesign"
+        "readMoreLink":""
     }
 ]

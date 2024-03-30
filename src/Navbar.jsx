@@ -10,7 +10,7 @@ export default function Navbar(){
     };
   
     return (
-      <nav className="p-4 bg-white text-gray-800 fixed top-0 w-full">
+      <nav className="p-4 bg-white text-gray-800 fixed z-20 top-0 w-full">
         <div className="container mx-auto flex justify-between items-center">
           <Link to="/"><img src={rongLogo}/></Link>
   
