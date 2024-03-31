@@ -21,8 +21,8 @@ export default function Home(){
                     imageSrc="src/assets/LiveMore_work.png"
                     date="Dec 2019 - Oct 2020"
                     companyTitle="LiveMore"
-                    description="Design mobile and web experiences to captivate new users and maintain brand consistency." 
-                    readMoreLink="/livemore"
+                    description="Design mobile and web experiences to captivate new users and maintain brand consistency. 👇 This links you to my previous Notion page." 
+                    readMoreLink="https://burly-marigold-da0.notion.site/Yurong-s-Notion-59a41741ee9241b59efb70e8a33b3ce5?pvs=4"
                     buttonText="View case studies"
                 />
         </div>

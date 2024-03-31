@@ -2,7 +2,7 @@
     {
         "id":"1",
         "year":"2023",
-        "imageSrc": "src/assets/MFAPasskeys.svg",
+        "imageSrc": "src/assets/Passkeys.svg",
         "casestudyTitle": "Passkeys, Multi Factor Authentication",
         "description":"Expanding Singpass login options and exploring Passkey release for increased adoption",
         "readMoreLink":"/govtech/passkeys"
@@ -10,7 +10,7 @@
     {
         "id":"2",
         "year":"2023",
-        "imageSrc": "src/assets/SFVA11yresearch.svg",
+        "imageSrc": "src/assets/A11yresearch.svg",
         "casestudyTitle": "Face Verification Accessibility research",
         "description":"Empathising with the struggles of visually impaired users",
         "readMoreLink":"/govtech/accessibility"
@@ -18,7 +18,7 @@
     {
         "id":"3",
         "year":"2023",
-        "imageSrc": "src/assets/SPAimprovements.svg",
+        "imageSrc": "src/assets/SPAprivacy.svg",
         "casestudyTitle": "Singpass app privacy improvements",
         "description":"Improving the Singpass app privacy posture in view of users’ feedback",
         "readMoreLink":"/govtech/appprivacy"

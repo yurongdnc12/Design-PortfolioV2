@@ -10,8 +10,8 @@ export default function CaseStudyCard({data}){
             <div className="w-full lg:w-1/3 py-8 mr-8" onClick={()=> handleClick(data.readMoreLink)} style={{cursor:'pointer'}}>
                 <div className="overflow-hidden text-left">
                     {/* Image */}
-                    <div className="border-slate-200 rounded-md">
-                        <img src={data.imageSrc} alt="Card Image" className="border rounded-lg w-full h-full object-cover" />
+                    <div className="rounded-md">
+                        <img src={data.imageSrc} alt="Card Image" className="rounded-lg pb-2 w-full h-full object-cover" />
                     </div>
             
                     {/* Content */}

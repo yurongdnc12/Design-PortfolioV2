@@ -22,9 +22,7 @@ function App() {
         <Route path="/" exact element={<Home/>} />
         <Route path="/about" exact element={<About/>} />
         <Route path="/govtech" exact element={<Company data={govtechData} />} /> 
-        {/* <Route path="/livemore" exact element={<Company data={livemoreData}/>} />  */}
         <Route path="/govtech/shortcuts" exact element={<Shortcuts />} /> 
-
         {/* Add more routes for additional pages */}
     </Routes>  
     </Router>

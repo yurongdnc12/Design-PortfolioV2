@@ -1,23 +1,27 @@
 import { Link } from 'react-router-dom'
 
+const handleClick = (url) => {
+  window.location.href=url;
+};
+
 export default function CardComponent({ imageSrc, date, companyTitle, description, readMoreLink, buttonText}){
   
     return (
-        <div className="w-full lg:w-1/2 py-8 mr-8">
+        <div className="w-full lg:w-1/2 py-8 mr-8" onClick={()=> handleClick(readMoreLink)} style={{cursor:'pointer'}}>
           <div className="rounded-lg overflow-hidden text-left">
             {/* Image */}
-            <img src={imageSrc} alt="Card Image" className="w-full h-full object-cover border-slate-200 border-2 rounded-lg" />
+            <img src={imageSrc} alt="Card Image" className="w-full h-full object-cover rounded-lg hover:opacity-90 hover:scale-105 transition duration-300"/>
     
             {/* Content */}
             <div className="py-4">
               {/* Date */}
-              <p className="text-slate-500 font-mono mb-1">{date}</p>
+              <p className="text-slate-500 text-sm font-mono mb-1">{date}</p>
     
               {/* Company Title */}
-              <h2 className="text-slate-800 text-2xl font-semibold mb-2">{companyTitle}</h2>
+              <h2 className="text-slate-800 text-xl font-semibold mb-2">{companyTitle}</h2>
     
               {/* Description */}
-              <p className="text-slate-700 mb-4">{description}</p>
+              <p className="text-slate-500 mb-4">{description}</p>
 
               <Link to = {readMoreLink}>
               {/* Learn More Button */}
